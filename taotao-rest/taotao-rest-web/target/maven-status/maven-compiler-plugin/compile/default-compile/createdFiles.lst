@@ -1,0 +1,4 @@
+com\taotao\rest\controller\RedisController.class
+com\taotao\rest\controller\ItemCatController.class
+com\taotao\rest\controller\ContentController.class
+com\taotao\rest\controller\ItemController.class
