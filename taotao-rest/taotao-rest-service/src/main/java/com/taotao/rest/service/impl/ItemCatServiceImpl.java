@@ -9,10 +9,10 @@ import org.springframework.stereotype.Service;
 import com.taotao.mapper.TbItemCatMapper;
 import com.taotao.pojo.TbItemCat;
 import com.taotao.pojo.TbItemCatExample;
+import com.taotao.redis.annotation.RedisHandle;
+import com.taotao.redis.constant.RedisConstant;
 import com.taotao.rest.pojo.CatNode;
 import com.taotao.rest.pojo.CatResult;
-import com.taotao.rest.redis.annotation.RedisHandle;
-import com.taotao.rest.redis.constant.RedisConstant;
 import com.taotao.rest.service.ItemCatService;
 
 @Service

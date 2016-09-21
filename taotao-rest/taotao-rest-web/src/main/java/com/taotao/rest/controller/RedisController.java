@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.taotao.common.utils.TaotaoResult;
-import com.taotao.rest.redis.service.RedisService;
+import com.taotao.redis.service.RedisService;
 
 @Controller
 @RequestMapping("/cache/sync/")

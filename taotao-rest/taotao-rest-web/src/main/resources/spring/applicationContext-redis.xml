@@ -13,7 +13,7 @@
 		<constructor-arg name="host" value="192.168.21.131"></constructor-arg>
 		<constructor-arg name="port" value="6379"></constructor-arg>
 	</bean>
-	<bean id="jedisClient" class="com.taotao.rest.redis.dao.impl.JedisClientSingle"></bean>
+	<bean id="jedisClient" class="com.taotao.redis.dao.impl.JedisClientSingle"></bean>
 	<!-- redis集群版 -->
 <!-- 	<bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
 		<constructor-arg name="nodes" >
